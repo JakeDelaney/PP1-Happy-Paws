@@ -15,4 +15,42 @@ h1, h2{
     font-family: Signika, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
+    color:#FFE8D6;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+
+/* Header and Nav Bar Styling */
+#logo{
+    line-height: 75px;
+    margin-left: 40px;
+    float: left;
+}
+
+#nav-list > li{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    line-height: 75px;
+    font-size: 120%;
+    font-weight: 600;
+    color: #FFE8D6;
+}
+#logo > a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+
+#nav-list a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+
+#header-nav-container{
+    background-color: #B7B7A4;
+    height: 75px;
 }
