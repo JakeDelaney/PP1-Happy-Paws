@@ -10,3 +10,9 @@
 body{
     font-family: Nobile, sans-serif;
 }
+
+h1, h2{
+    font-family: Signika, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
