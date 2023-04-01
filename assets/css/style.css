@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nobile&family=Signika:wght@500&display=swap');
+
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: Nobile, sans-serif;
+}
