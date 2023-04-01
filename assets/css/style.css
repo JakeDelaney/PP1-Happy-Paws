@@ -24,7 +24,7 @@ a{
 }
 
 
-/* Header and Nav Bar Styling */
+/* Header and Nav bar Styling */
 #logo{
     line-height: 75px;
     margin-left: 40px;
@@ -53,4 +53,19 @@ a{
 #header-nav-container{
     background-color: #B7B7A4;
     height: 75px;
+}
+
+/*Hero image and overlay styling*/
+#outer-hero-image{
+    height: 750px;
+    width: 100%;
+}
+
+#hero-image{
+    height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 0px top 90%;
+    background-image: url('../images/woman-grooming-dog-test.jpg');
 }
