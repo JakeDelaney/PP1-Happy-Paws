@@ -9,6 +9,7 @@
 
 body{
     font-family: Nobile, sans-serif;
+    background-color: beige;
 }
 
 h1, h2{
@@ -25,47 +26,64 @@ a{
 
 
 /* Header and Nav bar Styling */
-#logo{
-    line-height: 75px;
-    margin-left: 40px;
-    float: left;
-}
 
-#nav-list > li{
-    float: right;
-    list-style: none;
-    margin-right: 40px;
-    line-height: 75px;
-    font-size: 120%;
-    font-weight: 600;
-    color: #FFE8D6;
-}
-#logo > a:hover{
-    color: yellow;
-    border-bottom: 1px solid yellow;
-}
-
-#nav-list a:hover{
-    color: yellow;
-    border-bottom: 1px solid yellow;
-}
-
-#header-nav-container{
-    background-color: #B7B7A4;
+header{
+    display: grid;
+    background-color: darkkhaki;
     height: 75px;
+    width: 100%;
+    grid-template-rows: 75px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header > .logo{
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    margin-left: 37px;
+}
+
+header > nav{
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    margin-right: 37px;
+}
+
+.logo{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+nav{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.nav-list li{
+    text-transform: uppercase;
+    list-style: none;
+    display: inline;
+    margin-left:100px;
 }
 
 /*Hero image and overlay styling*/
-#outer-hero-image{
-    height: 750px;
+
+.hero-image-container{
+    display: grid;
+    height: 600px;
     width: 100%;
+    grid-template-rows: 600px;
+    grid-template-columns: 1f 1f 1f 1f;
+    background-color: white;
+
 }
 
-#hero-image{
+/*#hero-image{
     height: 750px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left 0px top 90%;
     background-image: url('../images/woman-grooming-dog-test.jpg');
-}
+}*/
