@@ -9,7 +9,7 @@
 
 body{
     font-family: Nobile, sans-serif;
-    background-color: beige;
+    background-color: none;
 }
 
 h1, h2{
@@ -25,46 +25,52 @@ a{
 }
 
 
+.grid-container{
+    display: grid;
+    background-color: aqua;
+    grid-template-rows: 75px 600px 600px 75px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header"
+                         "hero hero hero hero"
+                        "ethos ethos ethos ethos"
+                        "footer footer footer footer";                        
+    height: auto;
+    width: 100%;
+}
+
 /* Header and Nav bar Styling */
 
-header{
-    display: grid;
-    background-color: darkkhaki;
+.header-flexbox-container{
+    display: flex;
+    background-color: none;
     height: 75px;
     width: 100%;
-    grid-template-rows: 75px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: header;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-header > .logo{
-    display: grid;
-    justify-items: start;
-    align-items: center;
-    margin-left: 37px;
-}
-
-header > nav{
-    display: grid;
-    justify-items: end;
-    align-items: center;
-    margin-right: 37px;
+header{
+    background-color: red;
+    height: 75px;
+    width: 100%;
 }
 
 .logo{
-    grid-column: 1;
-    grid-row: 1;
+    margin-left: 37px;
+    flex-grow: 1;
 }
 
+
 nav{
-    grid-column: 3;
-    grid-row: 1;
+    justify-content: flex-end;
 }
 
 .nav-list li{
     text-transform: uppercase;
     list-style: none;
     display: inline;
-    margin-left:100px;
+    margin-right: 75px;
 }
 
 /*Hero image and overlay styling*/
