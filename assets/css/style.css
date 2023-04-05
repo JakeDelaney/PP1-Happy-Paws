@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: none;
+    border: solid 1px black;
 }
 
 body{
@@ -27,7 +27,6 @@ a{
 
 .grid-container{
     display: grid;
-    background-color: aqua;
     grid-template-rows: 75px 600px 600px 75px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: "header header header header"
@@ -48,12 +47,7 @@ a{
     grid-area: header;
     justify-content: flex-start;
     align-items: center;
-}
-
-header{
     background-color: red;
-    height: 75px;
-    width: 100%;
 }
 
 .logo{
@@ -69,20 +63,18 @@ nav{
 .nav-list li{
     text-transform: uppercase;
     list-style: none;
-    display: inline;
+    display: inline-flex;
     margin-right: 75px;
 }
 
 /*Hero image and overlay styling*/
 
-.hero-image-container{
-    display: grid;
+.hero-image-flexbox-container{
+    display: flex;
     height: 600px;
     width: 100%;
-    grid-template-rows: 600px;
-    grid-template-columns: 1f 1f 1f 1f;
-    background-color: white;
-
+    grid-area: hero;
+    background-color: teal;
 }
 
 /*#hero-image{
@@ -93,3 +85,12 @@ nav{
     background-position: left 0px top 90%;
     background-image: url('../images/woman-grooming-dog-test.jpg');
 }*/
+
+.ethos-flexbox-container{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    grid-area: ethos;
+    background-color: green;
+    justify-content: space-evenly;
+}
