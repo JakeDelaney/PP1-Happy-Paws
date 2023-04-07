@@ -4,24 +4,24 @@
 *{
     margin: 0;
     padding: 0;
-    border: solid 1px black;
+    /*border: solid 1px black;*/
 }
 
 body{
     font-family: Nobile, sans-serif;
-    background-color: none;
+    background-color: #ddbea9;
 }
 
 h1, h2{
     font-family: Signika, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color:#FFE8D6;
+    color: #FFF;
 }
 
 a{
     text-decoration: none;
-    color: wheat;
+    color: #FFF;
 }
 
 
@@ -33,21 +33,19 @@ a{
                          "hero hero hero hero"
                         "ethos ethos ethos ethos"
                         "footer footer footer footer";                        
-    height: auto;
-    width: 100%;
 }
 
 /* Header and Nav bar Styling */
 
 .header-flexbox-container{
     display: flex;
-    background-color: none;
     height: 75px;
     width: 100%;
     grid-area: header;
     justify-content: flex-start;
     align-items: center;
-    background-color: red;
+    background-color: #6b705c;
+    border: 1px solid black;
 }
 
 .logo{
@@ -69,28 +67,64 @@ nav{
 
 /*Hero image and overlay styling*/
 
-.hero-image-flexbox-container{
+.hero-image-container{
     display: flex;
-    height: 600px;
+    height: 100%;
     width: 100%;
     grid-area: hero;
-    background-color: teal;
+    background-color: #ffe8d6;
+    border: solid 1px black;
+    align-items: center;
+    
 }
 
-/*#hero-image{
-    height: 750px;
+.hero-image{
+    background-image: url(../images/brushing_dog_transparent.png);
+    height: 90%;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left 0px top 90%;
-    background-image: url('../images/woman-grooming-dog-test.jpg');
-}*/
+    background-size: contain;
+    position: relative;
+}
 
+.hero-image-overlay{
+    height: auto;
+    width: auto;
+    background-color: #cb997e;
+    margin: 0 6em 15em 0;
+    border-radius: 5%;
+}
+
+.hero-image-overlay > h2{
+    padding: 1em;
+    text-align: center;
+    font-size: 250%;
+}
+
+/*ETHOS SECTION*/
 .ethos-flexbox-container{
     display: flex;
     height: 600px;
     width: 100%;
     grid-area: ethos;
-    background-color: green;
+    background-color: rgb(245, 142, 142);
+    justify-content: space-evenly;
+    gap: 1em;
+    padding-top: 1em;
+
+}
+
+.ethos-1, .ethos-2, .ethos-3{
+    border: 2px solid black;
+    border-radius: 1%;
+}
+
+/* FOOTER */
+.footer-flexbox-container{
+    display: flex;
+    height: 75px;
+    width: 100%;
+    grid-area: footer;
+    background-color: beige;
     justify-content: space-evenly;
 }
