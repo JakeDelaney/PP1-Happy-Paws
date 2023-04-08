@@ -29,7 +29,7 @@ a{
 
 .grid-container{
     display: grid;
-    grid-template-rows: 75px 600px 75px 600px 75px;
+    grid-template-rows: 75px 600px 75px auto 75px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "header header header"
                          "hero hero hero"
@@ -117,44 +117,41 @@ a{
     justify-content: space-evenly;
     height: 100%;
     width: 100%;
+    margin: 20px 0 20px 0;
 }
 
 .ethos-card{
     background-color: blue;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 400px;
     border-radius: 5%;
+    box-shadow: 6px 6px 6px black;
 }
 
 .ethos-card-image{
     background-color: teal;
     height: 400px;
+    width: 100%;
     margin-bottom: 15px;
+    border-radius: 5% 5% 0 0;
 }
 
 .card-image-1{
     background-image: url(../images/card-image-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5%;
-
-
 } 
 
 .card-image-2{
     background-image: url(../images/card-image-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5%;
-
 }
 
 .card-image-3{
     background-image: url(../images/card-image-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 5%;
-
 }
 
 /*change class, confusing with the ethos heading introduction*/
