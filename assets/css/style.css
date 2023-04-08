@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nobile&family=Signika:wght@500&display=swap');
 
-/* General Styling */
+/*GENERAL STYLING*/
 *{
     margin: 0;
     padding: 0;
@@ -38,8 +38,7 @@ a{
                         "footer footer footer";                        
 }
 
-/* Header and Nav bar Styling */
-
+/*HEADER AND NAV BAR*/
 .header-flexbox-container{
     display: flex;
     flex-wrap: wrap;
@@ -62,10 +61,11 @@ a{
     list-style: none;
     display: inline-flex;
     margin-right: 75px;
+    font-size: 120%;
+    font-weight: 500;
 }
 
-/*Hero image and overlay styling*/
-
+/*HERO IMAGE AND OVERLAY*/
 .hero-image-container{
     display: flex;
     height: 100%;
@@ -121,7 +121,7 @@ a{
 }
 
 .ethos-card{
-    background-color: blue;
+    background-color: #ffe8d6;
     height: 600px;
     width: 400px;
     border-radius: 5%;
@@ -131,7 +131,7 @@ a{
 .ethos-card-image{
     background-color: teal;
     height: 400px;
-    width: 100%;
+    width: 400px;
     margin-bottom: 15px;
     border-radius: 5% 5% 0 0;
 }
@@ -152,6 +152,14 @@ a{
     background-image: url(../images/card-image-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.ethos-card:hover{
+    background-color: #a5a58d;
+    cursor: pointer;
+    color: #FFF;
+    transform: scaleX(1.02);
+    transition: all 1s ease;
 }
 
 /*change class, confusing with the ethos heading introduction*/
