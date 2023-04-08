@@ -4,10 +4,12 @@
 *{
     margin: 0;
     padding: 0;
-    /*border: solid 1px black;*/
+    /*border: solid 1px black;8*/
 }
 
-body{
+html, body{
+    height: 100%;
+    width: 100%;
     font-family: Nobile, sans-serif;
     background-color: #ddbea9;
 }
@@ -16,7 +18,7 @@ h1, h2{
     font-family: Signika, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #FFF;
+    color: black;
 }
 
 a{
@@ -27,18 +29,20 @@ a{
 
 .grid-container{
     display: grid;
-    grid-template-rows: 75px 600px 600px 75px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "header header header header"
-                         "hero hero hero hero"
-                        "ethos ethos ethos ethos"
-                        "footer footer footer footer";                        
+    grid-template-rows: 75px 600px 75px 600px 75px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "hero hero hero"
+                         "ethos_head ethos_head ethos_head"
+                        "ethos ethos ethos"
+                        "footer footer footer";                        
 }
 
 /* Header and Nav bar Styling */
 
 .header-flexbox-container{
     display: flex;
+    flex-wrap: wrap;
     height: 75px;
     width: 100%;
     grid-area: header;
@@ -51,11 +55,6 @@ a{
 .logo{
     margin-left: 37px;
     flex-grow: 1;
-}
-
-
-nav{
-    justify-content: flex-end;
 }
 
 .nav-list li{
@@ -72,52 +71,93 @@ nav{
     height: 100%;
     width: 100%;
     grid-area: hero;
-    background-color: #ffe8d6;
     border: solid 1px black;
     align-items: center;
-    
 }
 
 .hero-image{
-    background-image: url(../images/brushing_dog_transparent.png);
-    height: 90%;
-    width: 100%;
+    background-image: url(../images/hero-banner-1920_600.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    height: 100%;
+    width: 100%;
     position: relative;
 }
 
 .hero-image-overlay{
+    background-color: rgba(255, 232, 214, 0.7);
+    border-radius: 5%;
     height: auto;
     width: auto;
-    background-color: #cb997e;
-    margin: 0 6em 15em 0;
-    border-radius: 5%;
+    margin-left: 1em;
+    margin-top: 10em;
+    position: absolute;
 }
 
 .hero-image-overlay > h2{
     padding: 1em;
     text-align: center;
-    font-size: 250%;
 }
 
 /*ETHOS SECTION*/
+.ethos-heading{
+    grid-area: ethos_head;
+    height: 75px;
+    width: 100%;
+    font-size: 150%;
+    background-color:#b7b7a4;
+    text-align: center;
+    line-height: 75px;
+}
+
+
 .ethos-flexbox-container{
     display: flex;
-    height: 600px;
-    width: 100%;
+    flex-wrap: wrap;
     grid-area: ethos;
-    background-color: rgb(245, 142, 142);
     justify-content: space-evenly;
-    gap: 1em;
-    padding-top: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+.ethos-card{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    border-radius: 5%;
+}
+
+.ethos-card-image{
+    background-color: teal;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.card-image-1{
+    background-image: url(../images/card-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+
+
+} 
+
+.card-image-2{
+    background-image: url(../images/card-image-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
 
 }
 
-.ethos-1, .ethos-2, .ethos-3{
-    border: 2px solid black;
-    border-radius: 1%;
+.card-image-3{
+    background-image: url(../images/card-image-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+
 }
+
+/*change class, confusing with the ethos heading introduction*/
 
 /* FOOTER */
 .footer-flexbox-container{
@@ -125,6 +165,7 @@ nav{
     height: 75px;
     width: 100%;
     grid-area: footer;
-    background-color: beige;
+    background-color: #6b705c;
+    color: #FFF;
     justify-content: space-evenly;
 }
