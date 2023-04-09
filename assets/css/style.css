@@ -4,7 +4,8 @@
 *{
     margin: 0;
     padding: 0;
-    /*border: solid 1px black;8*/
+    /*border: solid 1px black;*/
+    box-sizing: border-box;
 }
 
 html, body{
@@ -18,7 +19,6 @@ h1, h2{
     font-family: Signika, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: black;
 }
 
 a{
@@ -26,10 +26,20 @@ a{
     color: #FFF;
 }
 
+a:hover{
+    color: black;
+    cursor: pointer;
+    transform: scaleX(1.02);
+    transition: all 1s ease;
+    background-color: #ddbea9;
+    border-radius: 10%;
+    padding: 10px;
+}
+
 
 .grid-container{
     display: grid;
-    grid-template-rows: 75px 600px 75px auto 75px;
+    grid-template-rows: auto 600px auto auto auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "header header header"
                          "hero hero hero"
@@ -45,15 +55,15 @@ a{
     height: 75px;
     width: 100%;
     grid-area: header;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     background-color: #6b705c;
     border: 1px solid black;
 }
 
 .logo{
+    margin-right: auto;
     margin-left: 37px;
-    flex-grow: 1;
 }
 
 .nav-list li{
@@ -129,7 +139,6 @@ a{
 }
 
 .ethos-card-image{
-    background-color: teal;
     height: 400px;
     width: 400px;
     margin-bottom: 15px;
