@@ -31,9 +31,8 @@ a:hover{
     cursor: pointer;
     transform: scaleX(1.02);
     transition: all 1s ease;
-    background-color: #ddbea9;
+    /*background-color: #ddbea9;*/
     border-radius: 10%;
-    padding: 10px;
 }
 
 
@@ -117,6 +116,8 @@ a:hover{
     background-color:#b7b7a4;
     text-align: center;
     line-height: 75px;
+    border: 1px solid black;
+    color: #fff;
 }
 
 
@@ -127,7 +128,7 @@ a:hover{
     justify-content: space-evenly;
     height: 100%;
     width: 100%;
-    margin: 20px 0 20px 0;
+    /*margin: 20px 0 20px 0;*/
 }
 
 .ethos-card{
@@ -176,10 +177,47 @@ a:hover{
 /* FOOTER */
 .footer-flexbox-container{
     display: flex;
-    height: 75px;
-    width: 100%;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
     grid-area: footer;
+    height: auto;
+    width: 100%;
     background-color: #6b705c;
     color: #FFF;
     justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+}
+
+.company-address{
+    width: 30%;
+    text-align: center;
+}
+
+.company-address p{
+    margin-top: 10px;
+}
+
+
+.social-media-list{
+    width: 30%;
+    text-align: center;
+}
+
+.media-links li{
+    display: inline-flex;
+    list-style: none;
+    font-size: 200%;
+    margin: 10px 20px 0 20px
+}
+
+.opening-times{
+    width: 30%;
+    text-align: center;
+}
+
+.opening-times li{
+    margin-top: 10px;
+    list-style: none;
 }
