@@ -4,13 +4,11 @@
 *{
     margin: 0;
     padding: 0;
-    /*border: solid 1px black;*/
     box-sizing: border-box;
+     /*border: solid 1px black;*/
 }
 
 html, body{
-    height: 100%;
-    width: 100%;
     font-family: Nobile, sans-serif;
     background-color: #ddbea9;
 }
@@ -35,51 +33,45 @@ a:hover{
     border-radius: 10%;
 }
 
-
-.grid-container{
-    display: grid;
-    grid-template-rows: auto 600px auto auto auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "header header header"
-                         "hero hero hero"
-                         "ethos_head ethos_head ethos_head"
-                        "ethos ethos ethos"
-                        "footer footer footer";                        
+ul{
+    list-style: none;
 }
 
 /*HEADER AND NAV BAR*/
+header{
+    background-color: #6b705c;
+}
+
 .header-flexbox-container{
     display: flex;
-    flex-wrap: wrap;
-    height: 75px;
-    width: 100%;
-    grid-area: header;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    background-color: #6b705c;
-    border: 1px solid black;
+    min-height: 75px;
+
 }
 
 .logo{
-    margin-right: auto;
-    margin-left: 37px;
+    display: flex;
+    padding-left: 37px;
+
 }
 
-.nav-list li{
-    text-transform: uppercase;
-    list-style: none;
-    display: inline-flex;
-    margin-right: 75px;
-    font-size: 120%;
-    font-weight: 500;
+.nav-list{
+    display: flex;
+    column-gap: 40px;
+    padding-right: 75px;
 }
+
+.nav-item{
+    font-size: 125%;
+}
+
 
 /*HERO IMAGE AND OVERLAY*/
 .hero-image-container{
     display: flex;
-    height: 100%;
+    height: 600px;
     width: 100%;
-    grid-area: hero;
     border: solid 1px black;
     align-items: center;
 }
@@ -124,9 +116,8 @@ a:hover{
 .ethos-flexbox-container{
     display: flex;
     flex-wrap: wrap;
-    grid-area: ethos;
     justify-content: space-evenly;
-    height: 100%;
+    height: auto;
     width: 100%;
     /*margin: 20px 0 20px 0;*/
 }
@@ -144,6 +135,7 @@ a:hover{
     width: 400px;
     margin-bottom: 15px;
     border-radius: 5% 5% 0 0;
+    background-color: ;
 }
 
 .card-image-1{
@@ -154,6 +146,12 @@ a:hover{
 
 .card-image-2{
     background-image: url(../images/card-image-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-image-3{
+    background-image: url(../images/card-image-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -179,8 +177,7 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     flex-flow: row wrap;
-    grid-area: footer;
-    height: auto;
+    height: 100px;
     width: 100%;
     background-color: #6b705c;
     color: #FFF;
@@ -220,4 +217,21 @@ a:hover{
 .opening-times li{
     margin-top: 10px;
     list-style: none;
+}
+
+@media (max-width: 768px) {
+    .header-flexbox-container{
+        flex-direction: column;
+        text-align: center;
+        min-height: 100px;
+        padding: 10px 0;
+    }
+
+    .logo{
+        padding-left: 0px;
+    }
+
+    .nav-list{
+        padding-right: 0px;
+    }
 }
