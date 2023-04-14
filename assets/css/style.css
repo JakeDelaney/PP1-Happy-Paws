@@ -214,7 +214,12 @@ footer{
     margin-bottom: 10px;
 }
 
-
+/*FORM*/
+.form-wrapper{
+    height: 100%;
+    width: 600px;
+    background-color: blue;
+}
 
 @media (max-width: 768px) {
     .header-flexbox-container{

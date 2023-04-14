@@ -23,5 +23,38 @@
         </nav>
     </header>
 
+    <section class="form">
+        <div class="form-wrapper">
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <fieldset>
+                    <label for="fname">First name</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+
+                    <label for="lname">Last name</label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="phone">Phone number (optional)</label><br>
+                    <input type="tel" id="phone" name="phone"><br>
+
+                    <label for="dog-size" id="dog-size" name="dog-size" required>Size of dog</label><br>
+                    <select id="dog-size" name="dog-size">
+                        <option value="small">Small dog (<10kg)</option>
+                        <option value="medium">Medium-sized dog (11kg - 26kg)</option>
+                        <option value="large">Large (27kg - 45kg)</option>
+                    </select><br>
+
+                    <label for="comments" id="comments" name="comments">Additional information</label><br>
+                    <textarea id="comments" name="comments"></textarea><br>
+
+                <input type="submit" value="Submit!">
+                <input type="Reset" value="Reset the form.">
+
+                </fieldset>
+            </form>
+    </section>
+
 </body>
 </html>
