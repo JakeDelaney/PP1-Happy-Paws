@@ -12,49 +12,102 @@
 <body>
 
     <!-- Header and Navbar flexbox container-->
-    <header class="header-flexbox-container">
-        <h1 class="logo"><a href="index.html">Happy Paws</a></h1>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="about.html">About us</a></li>
-                <Li><a href="prices.html">Prices</a></Li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+    <header>
+        <div class="header-flexbox-container">
+            <h1 class="logo"><a href="index.html">Happy Paws <i class="fa-solid fa-paw fa-lg"></i> </a></h1>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="about.html">About us</a></li>
+                    <Li class="nav-item"><a href="prices.html">Prices</a></Li>
+                    <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="form">
-        <div class="form-wrapper">
+    <!--Form container-->
+    <section class="form-container">
+            <h1>Contact us</h1>
             <form action="https://formdump.codeinstitute.net/" method="POST">
-                <fieldset>
-                    <label for="fname">First name</label><br>
-                    <input type="text" id="fname" name="fname" required><br>
+                <div class="name-wrapper">
+                    <input type="text" id="fname" name="fname" placeholder="first name" required>
+                    <input type="text" id="lname" name="lname" placeholder="last name" required>
+                </div>
 
-                    <label for="lname">Last name</label><br>
-                    <input type="text" id="lname" name="lname" required><br>
+                <div class="email-wrapper">
+                    <input type="email" id="email" name="email" placeholder="Email address" required>
+                </div>
 
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" name="email" required><br>
+                <div class="phone-wrapper">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone number (optional)">
+                </div>
 
-                    <label for="phone">Phone number (optional)</label><br>
-                    <input type="tel" id="phone" name="phone"><br>
-
-                    <label for="dog-size" id="dog-size" name="dog-size" required>Size of dog</label><br>
+                <div class="size-wrapper">
+                    <label for="dog-size" id="dog-size" name="dog-size" required>Select the size of your dog</label><br>
                     <select id="dog-size" name="dog-size">
                         <option value="small">Small dog (<10kg)</option>
                         <option value="medium">Medium-sized dog (11kg - 26kg)</option>
                         <option value="large">Large (27kg - 45kg)</option>
-                    </select><br>
+                    </select>
+                </div>
 
-                    <label for="comments" id="comments" name="comments">Additional information</label><br>
-                    <textarea id="comments" name="comments"></textarea><br>
+                <div class="extra-info"></div>
+                    <label for="comments" id="comments" name="comments">Enter your message here</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
 
-                <input type="submit" value="Submit!">
-                <input type="Reset" value="Reset the form.">
 
-                </fieldset>
+                <div class="buttons">
+                    <input type="submit" value="Submit!">
+                    <input type="Reset" value="Reset the form.">
+                </div>
             </form>
     </section>
+
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-flexbox-container">
+
+            <div class="company-address footer-content">
+                <h3>Find us <i class="fa-solid fa-building fa-lg"></i></h3>
+                <p>16 Herbert Street, Dublin, Ireland</p>
+            </div>
+
+            <div class="social-media-list footer-content">
+                <h3>Follow us <i class="fa-solid fa-hashtag"></i></h3>
+                <ul class="media-links">
+                    <li class="list-item">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Click her to visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+
+                    <li class="list-item">
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Click her to visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+
+                    <li class="list-item">
+                        <a href="https://www.Twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Click her to visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+
+                    <li class="list-item">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Click her to visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="opening-times footer-content">
+                <h3>Visit us <i class="fa-solid fa-clock fa-lg"></i></h3>
+                <ul>
+                    <li>Mon - Fri</li>
+                    <li>9:00 - 17:30</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+     <!-- link to Font Awesome kit-->
+     <script src="https://kit.fontawesome.com/e5f69c717a.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
