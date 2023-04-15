@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: solid 1px black;*/
+    /*border: solid 1px black*/
 }
 
 html, body{
@@ -172,18 +172,19 @@ header{
     transition: all 1s ease;
 }
 
+
 /* CONTACT FORM */
 .form-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 600px;
+    align-items: center;
+    max-width: 1200px;
     height: 100%;
     background-color: ddbea9;
-    align-items: center;
-    margin: 0 auto;
     font-size: 100%;
     padding: 50px;
+    margin: 0 auto;
     margin-top: 50px;
     border-radius: 10%;
     background-color: tan;
@@ -220,39 +221,66 @@ form{
 }
 
 .size-wrapper{
+    margin-top: 20px;
     text-align: center;
+    font-size: 125%
 }
 
-.size-wrapper{
-    font-size: 125%;
+.size-wrapper > select{
+    font-size: 75%;
+    margin-top: 10px;
+    box-shadow: 0 0 5px 5px grey;
+    padding: 5px;
+
 }
 
 .extra-info{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
-.extra-info > label{
-    font-size: 150%;
+span{
+    font-size: 125%;
 }
 
 textarea{
     height: 200px;
     width: 100%;
-    color: #ddbea9;
+    color: black;
+    box-shadow: 0 0 5px 5px grey;
+    font-size: 125%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5%;
 }
 
 input{
     margin-bottom: 20px;
-    border-radius: 10%;
+    border-radius: 5%;
     box-shadow: 0 0 5px 5px grey;
     padding: 20px;
 }
 
 .buttons{
-    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.buttons input{
+    width: 40%;
+}
+
+/*GOOGLE MAPS*/
+.google-map-container{
+    background-color: red;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.google-map{
+    width: 100%;
 }
 
 /*change class, confusing with the ethos heading introduction*/
