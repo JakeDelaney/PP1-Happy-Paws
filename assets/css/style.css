@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: solid 1px black*/
+    border: solid 1px black
 }
 
 html, body{
@@ -104,15 +104,10 @@ header{
 
 /*ETHOS SECTION*/
 .ethos-heading{
-    grid-area: ethos_head;
-    height: 75px;
+    height: 37px;
     width: 100%;
-    font-size: 150%;
     background-color:#b7b7a4;
-    text-align: center;
-    line-height: 75px;
     border: 1px solid black;
-    color: #fff;
 }
 
 
@@ -124,6 +119,10 @@ header{
     height: auto;
     width: 100%;
     margin: 20px 0 20px 0;
+}
+
+.ethos-flexbox-container > h2{
+    font-size: 170%;
 }
 
 .ethos-row-1{
@@ -142,10 +141,16 @@ header{
 
 .ethos-card{
     background-color: #ffe8d6;
-    height: 600px;
+    height: auto;
     width: 400px;
     border-radius: 5%;
+    margin-top: 40px;
     box-shadow: 6px 6px 6px black;
+}
+
+.ethos-card > h3{
+    width: 100%;
+    text-align: center;
 }
 
 .ethos-card-image{
