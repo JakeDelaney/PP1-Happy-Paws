@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: solid 1px black*/
+    border: solid 1px black
 }
 
 html, body{
@@ -38,6 +38,11 @@ a:hover{
 
 ul{
     list-style: none;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
 }
 
 /*HEADER AND NAV BAR*/
@@ -84,10 +89,11 @@ header{
 }
 
 .hero-image{
-    background-image: url(../images/hero-banner-425.jpg);
+    background-image: url(../images/hero-banner-1920_600.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     position: relative;
 }
 
@@ -174,7 +180,7 @@ header{
     height: auto;
     width: 90vw;
     border-radius: 5% 5% 0 0;
-    margin-top: 20px;
+    margin-top: 1.5em;
     box-shadow: 6px 6px 6px black;
 }
 
@@ -345,21 +351,27 @@ input{
     height: auto;
     display: flex;
     justify-content: center;
-    background-color: red;
+    margin: auto 0;
+}
+
+.price-list td, th{
+    width: 50%;
+    text-align: center;
 }
 
 .price-list th{
-    padding: 10px;
+    padding: 1em;
     font-size: 150%;
 }
 
 .price-list td{
-    padding: 20px 40px;
+    padding: 1em 1em;
     font-size: 125%;
+    font-weight: bold;
 }
 
 .alt-color{
-    background-color: grey;
+    background-color: tan;
 }
 
 /*change class, confusing with the ethos heading introduction*/
@@ -407,49 +419,71 @@ footer{
 }
 
 
-/*
-@media (max-width: 768px) {
+/*MEDIA QUERY FOR SMALL SCREENS 500px and below*/
+
+@media screen and (min-width: 500px) {
     .header-flexbox-container{
-        flex-direction: column;
-        text-align: center;
-        min-height: 100px;
-        padding: 10px 0;
-    }
-
-    .logo{
-        padding-left: 0px;
-    }
-
-    .nav-list{
-        padding-right: 0px;
-    }
-
-    .ethos-card-image{
-        height: 300px;
-        width: 300px;
-        margin-bottom: 15px;
-        border-radius: 5% 5% 0 0;
+        display: flex;
+        align-items: center;
     }
 
     .ethos-card{
-        background-color: #ffe8d6;
-        height: 600px;
-        width: 300px;
-        border-radius: 5%;
-        box-shadow: 6px 6px 6px black;
+        width: 90vw;
     }
 
-    .footer-flexbox-container{
-        flex-direction: column;
-        margin-top: 20px;
+    .ethos-image{
+        height: 70;
     }
 
-    .footer-content{
-        margin: 20px 0;
+
+
+    @media screen and (min-width: 768px) {
+        .ethos-flexbox-container > h2{
+        }
+
+        .ethos-card{
+            width: 45vw;
+        }
+
     }
 
-    .social-media-list{
-        order: -1;
+
+    @media screen and (min-width: 1024px) {
+
+        .header-flexbox-container{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .ethos-card{
+            width: 45vw;
+        }
+
+
+        .nav-list{
+            flex-direction: row;
+        }
+
+        .nav-item{
+            padding: 0 20px;
+        }
+
+        .footer-flexbox-container{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .social-media-list{
+            order: 0;
+        }
+
+        .footer-content{
+            width: 30vw;
+        }
+
+        @media screen and (min-width: 1440px) {
+            .ethos-card{
+                width: 40vw;
+                height: auto
+            }
     }
-}
-*/
