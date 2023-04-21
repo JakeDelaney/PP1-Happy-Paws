@@ -50,7 +50,7 @@ header{
     flex-direction: column;
     align-items: flex-start;
     min-height: 75px;
-    margin-left: 0.5em;
+    margin: 1em 0 1em 1em;
 }
 
 /*
@@ -64,10 +64,12 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 0.5em;
 }
 
 .nav-item{
     font-size: 125%;
+    font-weight: bold;
     padding: 0.5em 0;
 }
 
@@ -111,27 +113,30 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25x;
     height: auto;
     width: 100%;
-    margin: 20px 0;
 }
 
 .about-us-video{
-    /*border-radius: 5%;*/
-    width: 100vw;
+    border-radius: 5%;
+    margin-top: 1em;
+    width: 90vw;
 }
 
 .about-us-content{
     height: auto;
-    padding-top: 20px;
+    margin-top: 1.5em;
     width: 80vw;
     text-align: center;
 }
 
+.about-us-content > h2{
+    margin-bottom: 1em;
+}
+
 /*ETHOS-HERO PAGE DIVIDER*/
 .content-divider{
-    height: 37px;
+    height: 1em;
     width: 100%;
     background-color:#b7b7a4;
     border: 1px solid black;
@@ -145,14 +150,9 @@ header{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 20px 0;
+    margin: 2em 0;
     height: auto;
     width: 100%;
-}
-
-.ethos-flexbox-container > h2{
-    font-size: 170%;
-    width: 70vw;
 }
 
 .ethos-row-1{
@@ -172,21 +172,24 @@ header{
 .ethos-card{
     background-color: #ffe8d6;
     height: auto;
-    width: 80vw;
-    border-radius: 5%;
-    margin-top: 40px;
+    width: 90vw;
+    border-radius: 5% 5% 0 0;
+    margin-top: 20px;
     box-shadow: 6px 6px 6px black;
 }
 
 .ethos-card > h3{
-    width: 100%;
-    text-align: center;
+    padding: 0.3em 1em;
+}
+
+.ethos-card > p{
+    padding: 0.3em 1em;
 }
 
 .ethos-card-image{
     height: 400px;
-    width: 80vw;
-    margin-bottom: 15px;
+    width: 100%;
+    margin-bottom: 1em;
     border-radius: 5% 5% 0 0;
 }
 
@@ -334,6 +337,29 @@ input{
 
 .google-map{
     width: 100%;
+}
+
+/*PRICE LIST*/
+.price-list-outer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.price-list th{
+    padding: 10px;
+    font-size: 150%;
+}
+
+.price-list td{
+    padding: 20px 40px;
+    font-size: 125%;
+}
+
+.alt-color{
+    background-color: grey;
 }
 
 /*change class, confusing with the ethos heading introduction*/
