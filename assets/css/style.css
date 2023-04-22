@@ -2,6 +2,7 @@
 
 
 /*GENERAL STYLING*/
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ html, body{
     flex-direction: column;
 }
 
-h1, h2, h3{
+h1, h2, h3, li{
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -37,8 +38,7 @@ a:hover{
     cursor: pointer;
     transform: scaleX(1.02);
     transition: all 1s ease;
-    /*background-color: #ddbea9;*/
-    border-radius: 10%;
+    padding: 0 0.3em;
 }
 
 ul{
@@ -51,6 +51,7 @@ ul{
 }
 
 /*HEADER AND NAV BAR*/
+
 header{
     background-color: #b7b7a4;
 }
@@ -73,11 +74,11 @@ header{
 .nav-item{
     font-size: 125%;
     font-weight: bold;
-    padding: 0.5em 0;
 }
 
 
 /*HERO IMAGE AND TEXT OVERLAY*/
+
 .hero-image-container{
     display: flex;
     flex-direction: column-reverse;
@@ -99,7 +100,7 @@ header{
     background-color: rgba(255, 232, 214, 0.7);
     border-radius: 5%;
     height: auto;
-    width: 70vw;
+    width: 200px;
     position: absolute;
     font-size: 70%;
     margin-bottom: 2em;
@@ -113,6 +114,7 @@ header{
 }
 
 /*ABOUT US SECTION*/
+
 .about-us-container{
     display: flex;
     flex-wrap: wrap;
@@ -141,6 +143,7 @@ header{
 }
 
 /*ETHOS SECTION*/
+
 .ethos-flexbox-container{
     display: flex;
     flex-wrap: wrap;
@@ -227,7 +230,8 @@ header{
 }
 
 
-/* CONTACT FORM */
+/*CONTACT FORM*/
+
 .form-container{
     display: flex;
     flex-direction: column;
@@ -328,6 +332,7 @@ input{
 }
 
 /*GOOGLE MAPS*/
+
 .google-map-container{
     width: 100%;
 }
@@ -336,7 +341,8 @@ input{
     width: 100%;
 }
 
-/*PRICE LIST*/
+/*PRICE LIST TABLE*/
+
 .price-list-outer{
     width: 100%;
     height: auto;
@@ -365,7 +371,6 @@ input{
     background-color: tan;
 }
 
-/*change class, confusing with the ethos heading introduction*/
 
 /* FOOTER */
 
@@ -410,7 +415,7 @@ footer{
 }
 
 
-/*MEDIA QUERY FOR SMALL SCREENS 500px and upwards*/
+/*MEDIA QUERY FOR SCREENS 500px - 768px*/
 
 @media screen and (min-width: 500px) {
     .header-flexbox-container{
@@ -444,164 +449,196 @@ footer{
     }
 }
 
-/*TABLETS*/
+/*MEDIA QUERY FOR SCREENS 768px - 1024px*/
 
-    @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
-        .about-us-container{
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            margin: 1em 0;
-            border-bottom: 0.2em solid grey;
-            border-top: 0.2em solid grey;
-        }
+    .about-us-container{
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin: 1em 0;
+        border-bottom: 0.2em solid grey;
+        border-top: 0.2em solid grey;
+    }
 
-        .about-us-video{
-            width: 40vw;
-            height: 600px;
-        }
+    .about-us-video{
+        width: 40vw;
+        height: 600px;
+    }
 
-        .about-us-content{
-            width: 40vw;
-        }
+    .about-us-content{
+        width: 40vw;
+    }
 
-        .hero-image-container{
-            display: flex;
-            flex-direction: column-reverse;
-            height: 600px;
-            width: 100%;
-            border: solid 1px black;
-        }
+    .hero-image-container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 600px;
+        width: 100%;
+        border: solid 1px black;
+    }
 
-        .hero-image{
-            background-image: url(../images/1920-1280.webp);
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100%;
-            width: 100%;
-            position: relative;
-        }
+    .hero-image{
+        background-image: url(../images/1920-1280.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
 
-        .ethos-card{
-            width: 45vw;
-        }
+    .ethos-card{
+        width: 45vw;
+    }
+}
+
+/*MEDIA QUERY FOR SCREENS 1024px - 1440px*/
+
+@media screen and (min-width: 1024px) {
+
+    .header-flexbox-container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .hero-image-overlay{
+        top: 40em;
+        left: 60em;
+        width: 20vw;
+    }
+
+    .hero-image-overlay > h2{
+        font-size: 200%;
+    }
+
+    .about-us-container{
+        justify-content: center;
+        gap: 5em;
+    }
+
+    .about-us-video{
+        width: 35vw;
+        height: 600px;
+    }
+
+    .about-us-content{
+        width: 35vw;
+        padding-top: 2.5em;
+    }
+
+    .ethos-card{
+        width: 35vw;
     }
 
 
-    @media screen and (min-width: 1024px) {
-
-        .header-flexbox-container{
-            flex-direction: row;
-            justify-content: space-around;
-        }
-
-        .about-us-container{
-            justify-content: center;
-            gap: 5em;
-        }
-
-        .about-us-video{
-            width: 35vw;
-            height: 600px;
-        }
-
-        .about-us-content{
-            width: 35vw;
-            padding-top: 2.5em;
-        }
-
-        .ethos-card{
-            width: 35vw;
-        }
-
-
-        .nav-list{
-            flex-direction: row;
-        }
-
-        .nav-item{
-            padding: 0 20px;
-        }
-
-        .footer-flexbox-container{
-            flex-direction: row;
-            justify-content: space-around;
-        }
-
-        .social-media-list{
-            order: 0;
-        }
-
-        .footer-content{
-            width: 30vw;
-        }
-
-        @media screen and (min-width: 1440px) {
-
-            .hero-image-container{
-                height: 600px;
-            }
-
-            .hero-image{
-                background-position: center;
-            }
-
-            .ethos-flexbox-container{
-                flex-direction: column;
-                flex-wrap: nowrap;
-            }
-
-            .ethos-card{
-                width: 30vw;
-            }
-
-            .about-us-container{
-                position: relative;
-                justify-content: flex-start;
-            }
-
-            .about-us-video{
-                position: relative;
-                left: 5em;
-            }
-
-            .about-us-content{
-                padding-top: 6em;
-                position: absolute;
-                left:  40em;
-                text-align: start;
-                
-            }
-        }
-
-         @media screen and (min-width: 1920px) {
-
-            .hero-image-overlay{
-                top: 25em;
-            }
-
-            .about-us-container{
-                position: relative;
-                justify-content: flex-start;
-            }
-
-            .about-us-video{
-                position: relative;
-                left: -7em;
-            }
-
-            .about-us-content{
-                padding-top: 6em;
-                position: absolute;
-                left:  30em;
-                text-align: start;
-                
-            }
-
-            .ethos-card{
-                width: 20vw;
-                margin: 20px 0;
-            }
-            
-         }
+    .nav-list{
+        flex-direction: row;
     }
+
+    .nav-item{
+        padding: 0 20px;
+    }
+
+    .footer-flexbox-container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .social-media-list{
+        order: 0;
+    }
+
+    .footer-content{
+        width: 30vw;
+    }
+}
+
+/*MEDIA QUERY FOR SCREENS 1440px - 1920px*/
+
+@media screen and (min-width: 1440px) {
+
+    .hero-image-container{
+        height: 600px;
+    }
+
+    .hero-image{
+        background-position: center;
+    }
+
+    .hero-image-overlay{
+        top: 35em;
+        left: 95em;
+        width: 20vw;
+    }
+
+    .hero-image-overlay > h2{
+        font-size: 200%;
+    }
+
+    .ethos-flexbox-container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .ethos-card{
+        width: 30vw;
+    }
+
+    .about-us-container{
+        position: relative;
+        justify-content: flex-start;
+    }
+
+    .about-us-video{
+        position: relative;
+        left: 5em;
+    }
+
+    .about-us-content{
+        padding-top: 6em;
+        position: absolute;
+        left:  40em;
+        text-align: start;
+        
+    }
+}
+
+/*MEDIA QUERY FOR SCREENS 1920px AND UPWARDS*/
+
+@media screen and (min-width: 1920px) {
+
+    .hero-image-overlay{
+        top: 30em;
+        left: 130em;
+        width: 30vh;
+    }
+
+    .hero-image-overlay > h2{
+        font-size: 250%;
+    }
+
+    .about-us-container{
+        position: relative;
+        justify-content: flex-start;
+    }
+
+    .about-us-video{
+        position: relative;
+        left: -7em;
+    }
+
+    .about-us-content{
+        padding-top: 6em;
+        position: absolute;
+        left:  30em;
+        text-align: start;
+        
+    }
+
+    .ethos-card{
+        width: 20vw;
+        margin: 20px 0;
+    }
+
+}
+    
