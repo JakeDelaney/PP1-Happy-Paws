@@ -205,14 +205,14 @@ header{
 }
 
 .card-image-3{
-    background-image: url(../images/card-image-3.webp);
+    background-image: url(../images/card-image-4.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.card-image-3{
-    background-image: url(../images/card-image-3.jpg);
+.card-image-4{
+    background-image: url(../images/card-image-5.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -435,6 +435,10 @@ footer{
         position: relative;
     }
 
+    .about-us-video{
+        width: 70vw;
+    }
+
     .ethos-card{
         width: 70vw;
     }
@@ -503,10 +507,11 @@ footer{
 
         .about-us-content{
             width: 35vw;
+            padding-top: 2.5em;
         }
 
         .ethos-card{
-            width: 45vw;
+            width: 35vw;
         }
 
 
@@ -547,8 +552,7 @@ footer{
             }
 
             .ethos-card{
-                width: 25vw;
-                height: auto
+                width: 30vw;
             }
 
             .about-us-container{
@@ -558,15 +562,46 @@ footer{
 
             .about-us-video{
                 position: relative;
-                padding-right: 10em;
+                left: 5em;
             }
 
             .about-us-content{
                 padding-top: 6em;
                 position: absolute;
-                left: 30em;
+                left:  40em;
                 text-align: start;
                 
             }
         }
+
+         @media screen and (min-width: 1920px) {
+
+            .hero-image-overlay{
+                top: 25em;
+            }
+
+            .about-us-container{
+                position: relative;
+                justify-content: flex-start;
+            }
+
+            .about-us-video{
+                position: relative;
+                left: -7em;
+            }
+
+            .about-us-content{
+                padding-top: 6em;
+                position: absolute;
+                left:  30em;
+                text-align: start;
+                
+            }
+
+            .ethos-card{
+                width: 20vw;
+                margin: 20px 0;
+            }
+            
+         }
     }
