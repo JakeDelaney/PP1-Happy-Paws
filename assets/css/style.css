@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mukta&display=swap');
 
-
-/*GENERAL STYLING*/
-
+/* GENERAL STYLING */
 *{
     margin: 0;
     padding: 0;
@@ -44,15 +42,14 @@ ul{
     list-style: none;
 }
 
-.main-container{
+.main-wrapper{
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
     height: auto;
 }
 
-/*HEADER AND NAV BAR*/
-
+/* HEADER AND NAVBAR */
 header{
     background-color: #b7b7a4;
 }
@@ -79,8 +76,7 @@ header{
 }
 
 
-/*HERO IMAGE AND TEXT OVERLAY*/
-
+/* HERO IMAGE AND TEXT OVERLAY */
 .hero-image-container{
     display: flex;
     flex-direction: column-reverse;
@@ -115,8 +111,7 @@ header{
     letter-spacing: 2px;
 }
 
-/*ABOUT US SECTION*/
-
+/* ABOUT US SECTION */
 .about-us-container{
     display: flex;
     flex-wrap: wrap;
@@ -127,7 +122,6 @@ header{
 }
 
 .about-us-video{
-    /*border-radius: 5%;*/
     padding-top: 1em;
     width: 100vw;
     height: auto;
@@ -144,8 +138,7 @@ header{
     margin-bottom: 1em;
 }
 
-/*ETHOS SECTION*/
-
+/* ETHOS SECTION */
 .ethos-flexbox-container{
     display: flex;
     flex-wrap: wrap;
@@ -236,7 +229,6 @@ header{
 
 
 /*CONTACT FORM*/
-
 .form-container{
     display: flex;
     flex-direction: column;
@@ -333,8 +325,7 @@ input{
     width: 70%;
 }
 
-/*GOOGLE MAPS*/
-
+/* GOOGLE MAPS */
 .google-map-container{
     width: 100%;
 }
@@ -343,8 +334,7 @@ input{
     width: 100%;
 }
 
-/*PRICE LIST TABLE*/
-
+/* PRICE LIST TABLE */
 .price-list-outer{
     width: 100%;
     height: auto;
@@ -375,8 +365,6 @@ input{
 
 
 /* FOOTER */
-
-/*makes footer stick to bottom of page*/
 footer{
     background-color: #b7b7a4;
     margin-top: auto;
@@ -402,7 +390,7 @@ footer{
 }
 
 .footer-content > p{
-    font-size: 12it =5%;
+    font-size: 125%;
 }
 
 .social-media-list{
@@ -423,8 +411,7 @@ footer{
 }
 
 
-/*MEDIA QUERY FOR SCREENS 500px - 768px*/
-
+/* MEDIA QUERY FOR SCREENS 500px AND ABOVE */
 @media screen and (min-width: 500px) {
     .header-flexbox-container{
         display: flex;
@@ -468,8 +455,7 @@ footer{
     }
 }
 
-/*MEDIA QUERY FOR SCREENS 768px - 1024px*/
-
+/* MEDIA QUERY FOR SCREENS 768px AND ABOVE */
 @media screen and (min-width: 768px) {
 
     .about-us-container{
@@ -522,8 +508,7 @@ footer{
     }
 }
 
-/*MEDIA QUERY FOR SCREENS 1024px - 1440px*/
-
+/* MEDIA QUERY FOR SCREENS 1024px AND ABOVE */
 @media screen and (min-width: 1024px) {
 
     .header-flexbox-container{
@@ -583,8 +568,7 @@ footer{
     }
 }
 
-/*MEDIA QUERY FOR SCREENS 1440px - 1920px*/
-
+/* MEDIA QUERY FOR SCREENS 1440px AND ABOVE */
 @media screen and (min-width: 1440px) {
 
     .hero-image-container{
@@ -633,8 +617,7 @@ footer{
     }
 }
 
-/*MEDIA QUERY FOR SCREENS 1920px AND UPWARDS*/
-
+/* MEDIA QUERY FOR SCREENS 1920px AND ABOVE */
 @media screen and (min-width: 1920px) {
 
     .hero-image-overlay{
@@ -680,6 +663,18 @@ footer{
         font-size: 200%;
         font-weight: bold;
     }
+}
 
+/* MEDIA QUERY FOR SCREENS 2560px AND ABOVE */
+@media screen and (min-width: 2560px) {
+    .about-us-video{
+        left: -10em;
+    }
+
+    .about-us-content{
+        left: 30em;
+        width: 25vw;
+        font-size: 100%;
+    }
 }
     
