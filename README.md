@@ -1,5 +1,5 @@
 # Happy Paws
-Happy Paws is website that advertises top of the range grooming services for cat and dog owners. The company was Established in South Dublin, Ireland in 1999. The once small family business has now grown to over 12 employees, with a sizeable client base spread across the greater Dublin area.
+Happy Paws is website that advertises top of the range grooming services for dog owners. The company was Established in South Dublin, Ireland in 1999. The once small family business has now grown to over 12 employees, with a sizeable client base spread across the greater Dublin area.
 
 To scale with organizational growth and business demands, Happy Paws has commissioned a new front-end website to accomodate their growing needs. This website has been designed to attract customers through a visually appealing UI/UX, provide information on the specific grooming services available, opening hours, locations, and other business related news.
 
@@ -26,12 +26,12 @@ To scale with organizational growth and business demands, Happy Paws has commiss
 * **First Time Visitor Goals**
   * As a first time visitor, I want to understand the purpose of the site, its target audience, and some background into the company.
   * As a first time visitor, I want to navigate through the site using intiuative buttons, links and other calls to action.
-  * As a first time visiitor, I want the site to display its sttructure semantically, and its content approriately for my device viewport.
+  * As a first time visiitor, I want the site to display its structure semantically, and its content appropriately for my device viewport.
   * As a first time visitor, I want to view the specific pricing for each service/product that is being offered.
   * As a first time visitor, When I click an icon for the company's social media platforms, I want to be redirected to the relevant site.
 
 * **Returning Visitor Goals**
-  * As a returning visitor using a different device viewport, i want the site to demonstrate reponsiveness and retain its structure.
+  * As a returning visitor using a different device viewport, I want the site to demonstrate reponsiveness and retain its structure.
   * As a returning vistor, I want to seamlessly navigate between the site homepage, pricing page, and contact page.
   * As a returning visitor, I want to confirm the contact details, locations, and opening hours of the company.
   * As a returning visitor, I want to view the specific prices of the services offered by the company.
@@ -58,7 +58,7 @@ To scale with organizational growth and business demands, Happy Paws has commiss
  
  ### Hero Image
 
-  The Hero Image is 1920x1280 resolution background image that depicts a woman grooming a small yorkshire terrier dog. This image has been chosen as it relevant to the context of the site, and the content displayed within it. This Hero Image is reponsive and will adjust itself to accomodate all viewport sizes. 
+  The Hero Image is a 1920x1280 resolution background image that depicts a woman grooming a small yorkshire terrier dog. This image has been chosen as it relevant to the context of the site, and the content displayed within it. This Hero Image is reponsive and will adjust itself to accomodate all viewport sizes. 
 
   A tagline has also been included as a transparent overlay onto the Hero Image. This tagline provides both a short advertisement, and additional information on the company.
 
@@ -117,7 +117,7 @@ To scale with organizational growth and business demands, Happy Paws has commiss
  ### Footer 
   The footer bar resides at the bottom of each html document. The footer includes the company address, opening hours, and social media links. There are four social media links in total (Facebook, Youtube, Twitter, Instagram.) When a user clicks either of the links they will be redirected to the relevant site. These links will also open up in a new tab and allow the customer to continue browser the Happy Paws website.
   
-  Like the navbar, the footer is completely reponsive and will adjust both its size and item arrangement in relation to the current viewport width.
+  Like the navbar, the footer is completely responsive and will adjust both its size and item arrangement in relation to the current viewport width.
   
   ![image](https://user-images.githubusercontent.com/76518393/233823653-b6401600-b7c3-4a38-aadd-dd4f603fc23e.png)
 
@@ -127,7 +127,7 @@ To scale with organizational growth and business demands, Happy Paws has commiss
   * A Gallery section of the website to display dogs after they have been groomed
   * A blog/news section to inform customers of any changes to working hours, operations, policy, etc.
   * Ethos cards with the added functionality of 'flipping' around to display additional content on the back
-  * A hamburger menu for smaller screen devices to further promote reponsive design
+  * A hamburger menu for smaller screen devices to further promote responsive design
 
 <br>
 
@@ -136,7 +136,7 @@ To scale with organizational growth and business demands, Happy Paws has commiss
 
 ![image](https://user-images.githubusercontent.com/76518393/233825126-0a62836b-32e4-49dd-8f2a-acf29c4f9afc.png)
 
-For the color scheme i opted for a warm and earthy tone. I felt these naturals theme were more suited to a company that works exclusively with animals. I also believe the down to earth and inviting theme will elicit a more positive emotional response from customers.
+For the color scheme i opted for a warm and earthy tone. I felt these natural themes were more suited to a company that works exclusively with animals. I also believe the down to earth and inviting theme will elicit a more positive emotional response from customers.
 
 <br>
 
@@ -157,7 +157,7 @@ All site imagery (including video) were royalty free, and taken from https://www
 
 ### Wireframes
 
-Below are the wireframes for the index.html file that were drafted prior to beginning the project. The final result is slighly differnet than initially depicted. This is was due to project scope increase.
+Below are the wireframes for the index.html file that were drafted prior to beginning the project. The final result is slighly different than initially depicted. This is was due to project scope increase.
 
 <p align="center">
   <img width="auto" height="auto" src="https://user-images.githubusercontent.com/76518393/233826285-429b799f-0d16-4ae8-b965-1ebe3d6b8600.png">
@@ -175,7 +175,7 @@ Below are the wireframes for the index.html file that were drafted prior to begi
 
 ## Testing
 ### Site functionality
-The below tests were carried out to verify site functionality. All tests were successfully and the site is working as intended.
+The below tests were carried out to verify site functionality. All tests were successful and the site is working as intended.
 
 ![image](https://user-images.githubusercontent.com/76518393/233826958-6c814097-2639-4e8f-81fd-ae3a13096940.png)
 
@@ -216,19 +216,19 @@ Several bugs were noted during site development. A record of these can be found 
 
 ## Deployment
 ### How to deploy this site
-* Navigate to the Settings menu from within the desired Github repository
-* Select Pages from the 'Code and automation' tab
-* Choose Source > Deploy from a branch
-* Then choose Branch > Main and clickm save
-* Wait a few minutes for the page to build. It can then be accessed from the desired repository under the tab "Environments"
+* Navigate to the Settings menu from within the desired Github repository.
+* Select Pages from the 'Code and automation' tab.
+* Choose Source > Deploy from a branch.
+* Then choose Branch > Main and click save.
+* Wait a few minutes for the page to build. It can then be accessed from the desired repository under the tab "Environments."
 
 ### How to clone this site
- * Navigate to the main page of the desired repository
- * Click the "Code" option above the list of files
- * Copy the repository URL, and then open up Git Bash
- * Chagne the current working directory to a location for the cloned directory
- * Enter the command 'git clone' and paste the copied URL
- * Press enter to create a local clone
+ * Navigate to the main page of the desired repository.
+ * Click the "Code" option above the list of files.
+ * Copy the repository URL, and then open up Git Bash.
+ * Change the current working directory to a location for the cloned directory.
+ * Enter the command 'git clone' and paste the copied URL.
+ * Press enter to create a local clone.
  
  <br>
  
@@ -241,33 +241,33 @@ Several bugs were noted during site development. A record of these can be found 
  
  
  ### Code
- Love Running project for initial structure and guidance
+ Love Running project for initial structure and guidance.
  
   * For help with the CSS card element of site:
   https://www.youtube.com/watch?v=qXRYMdvq_Dc
-  * For help with Navbar: responsiveness
+  * For help with Navbar responsiveness:
   https://www.youtube.com/watch?v=nMuwgcG-8xU
   * For help with CSS Flexbox:
   https://www.youtube.com/watch?v=phWxA89Dy94
 
 ### Applications
-  * Balsamiq Wireframes for help with initial site mockups
-  * Gitpod for the development environment
-  * Git for version control
-  * Github for file and website hosting
-  * FontAwesome for social media and element icons
-  * Adobe Express for resizing videos/images
-  * TinyPNG for image compression
-  * CloudConvert for png/jpeg to WEBP, and MP4 to WEBM conversions
-  * FontJoy for font pairings
-  * Coolors for palette colour generation
+  * Balsamiq Wireframes for help with initial site mockups.
+  * Gitpod for the development environment.
+  * Git for version control.
+  * Github for file and website hosting.
+  * FontAwesome for social media and element icons.
+  * Adobe Express for resizing videos/images.
+  * TinyPNG for image compression.
+  * CloudConvert for png/jpeg to WEBP, and MP4 to WEBM conversions.
+  * FontJoy for font pairings.
+  * Coolors for palette colour generation.
   
 ### Media 
-  * Pexels for stock imagery and videos
+  * Pexels for stock imagery and videos.
   
   
 ### Acknowledgements
-  * My tutor Derek McCaudley for guidance during the project
+  * My tutor Derek McCaudley for guidance during the project.
   
 
   
