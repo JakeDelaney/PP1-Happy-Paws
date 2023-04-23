@@ -3,7 +3,13 @@ Happy Paws is website that advertises top of the range grooming services for cat
 
 To scale with organizational growth and business demands, Happy Paws has commissioned a new front-end website to accomodate their growing needs. This website has been designed to attract customers through a visually appealing UI/UX, provide information on the specific grooming services available, opening hours, locations, and other business related news.
 
-**(Placeholder for image showing site reponsiveness on muiltiple devices)**
+<br>
+
+<p align="center">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/76518393/233813678-f74bedff-1bec-48fc-997d-a8480d01d6ea.PNG">
+</p>
+
+<br>
 
 ## Table of Contents
   * User Experience (UX)
