@@ -52,6 +52,7 @@ ul{
 /* HEADER AND NAVBAR */
 header{
     background-color: #b7b7a4;
+    border: 1px solid black;
 }
 
 .header-flexbox-container{
@@ -343,7 +344,7 @@ input{
 }
 
 table{
-    border: 5px solid black;
+    border: 1px solid black;
 }
 
 .price-list td, th{
@@ -379,6 +380,7 @@ table{
 footer{
     background-color: #b7b7a4;
     margin-top: auto;
+    border: 1px solid black;
 }
 
 .footer-flexbox-container{
@@ -388,7 +390,6 @@ footer{
     width: 100%;
     font-size: 125%;
     justify-content: space-around;
-    border: 1px solid black;
     align-items: center;
     text-align: center;
 }
@@ -560,6 +561,9 @@ footer{
         margin-top: 6em;
     }
 
+    table{
+        border: 5px solid black;
+    }
 
     .nav-list{
         flex-direction: row;
