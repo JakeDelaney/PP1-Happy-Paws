@@ -236,7 +236,6 @@ header{
     height: auto;
     width: 100vw;
     padding: 50px;
-    background-color: ddbea9;
     font-size: 100%;
     border-radius: 10%;
 }
@@ -343,6 +342,10 @@ input{
     margin: auto 0;
 }
 
+table{
+    border: 5px solid black;
+}
+
 .price-list td, th{
     width: 50%;
     text-align: center;
@@ -359,8 +362,16 @@ input{
     font-weight: bold;
 }
 
-.alt-row-color{
-    background-color: #ddbea9;
+.row-color-1{
+    background-color: #DDBEA9;
+}
+
+.row-color-2{
+    background-color: #D6B199;
+}
+
+.row-color-3{
+    background-color: #a5a58d;
 }
 
 
