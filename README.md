@@ -6,11 +6,10 @@ To scale with organizational growth and business demands, Happy Paws has commiss
 <br>
 
 <p align="center">
-  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/76518393/233813678-f74bedff-1bec-48fc-997d-a8480d01d6ea.PNG">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/76518393/233830466-dc8be68a-893c-4ab1-b2d2-6f8021fc26b3.PNG">
 </p>
 
 <br>
-
 
 ## Table of Contents
   * User Experience (UX)
