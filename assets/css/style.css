@@ -225,9 +225,8 @@ header{
 
 .ethos-card:hover{
     background-color: #a5a58d;
-    cursor: pointer;
     color: #FFF;
-    transform: scaleX(1.02);
+    transform: scale(1.02);
     transition: all 1s ease;
 }
 
