@@ -11,6 +11,7 @@ To scale with organizational growth and business demands, Happy Paws has commiss
 
 <br>
 
+
 ## Table of Contents
   * User Experience (UX)
   * Features
@@ -38,43 +39,84 @@ To scale with organizational growth and business demands, Happy Paws has commiss
 * **Frequent User**
   * As a frequent user I want to check the site for any pricing updates.
   * As a frequent user I want to follow up on enquiries through the provided contact form.
-
   
-
+  
 ## Features
 
 ### Navigation Bar
 
  The navigatior bar resides within the header element along with the company logo. The navigation bar includes three anchor links (Home, Prices, About us.) Each link when clicked, will redirect the user to the relevant html page for that anchor link. For added intuitiveness, CSS styling has been applied to each link to draw attention to that specific element when hovered over, and also clicked on.
 
- The navigation bar is reponsive and will adjust to viewport sizes from 320px and greater. The navigation bar also maintains a consitent look and placement across all site html files.
+ The navigation bar is reponsive and will adjust to viewport sizes from 320px and upwards. The navigation bar also maintains a consitent look and placement across all site html files.
 
- **(Placeholder for navbar image)**
+ ![image](https://user-images.githubusercontent.com/76518393/233822801-b377b653-3f1f-4574-a642-9b276e6dd0e2.png)
  
+ <br>
  
-
  ### Hero Image
 
   The Hero Image is 1920x1280 resolution background image that depicts a woman grooming a small yorkshire terrier dog. This image has been chosen as it relevant to the context of the site, and the content displayed within it. This Hero Image is reponsive and will adjust itself to accomodate all viewport sizes. 
 
   A tagline has also been included as a transparent overlay onto the Hero Image. This tagline provides both a short advertisement, and additional information on the company.
 
-  **(Placeholder for Hero Image)**
+![image](https://user-images.githubusercontent.com/76518393/233822966-7c405f24-34fe-4b1e-957b-ba85a87deb30.png)
+
+<br>
   
   
 
 ### About Us Section
 
-  The Abous Us section includes a short summary detailing the background of the company. The summary includes two paragraph elements and a h2 element. Along with the text content, an accompanying video is included within this section. This video has given the attributes to autoplay, without sound, and to allow the user to stop/start the video through provided controls. 
+  The About Us section includes a short summary detailing the background of the company. The summary includes two paragraph elements and a h2 element. Along with the text content, an accompanying video of a woman and her pet dog is included within this section. This video has been given the attribute to autoplay, and to allow the user to stop/start the video through the  provided controls attribute. 
 
-  The About Us section is also responsive, and will adjust itself to the device viewport.
+![image](https://user-images.githubusercontent.com/76518393/233823096-abfa4ecb-3455-4cef-aeae-e95a68dbe7da.png)
 
-  **(placeholder for About Us Section images)**
+<br>
+
+
+
+ ### Ethos Section
+
+  The Ethos section embodies the spirt of the company, and advertises to all visting user just why Happy Paws stands out among all other dog grooming companies. The content within the Ethos Section includes four CSS-styled content cards. Each card represents a specific company etho. 
   
+  Each card consits of background image at the top, and text content in the form of paragraph elements and a h2 element at the botton. For design purposes, each card has been styled to display a shadow effect and rounded edges. 
   
+  ![image](https://user-images.githubusercontent.com/76518393/233823240-b1df1a08-0cdc-4493-adef-4b64f94d550e.png)
+  
+  <br>
 
- Ethos Section
 
-    The Ethos section embodies the spirt of the company, and advertises to all visting user just why Happy Paws stands out among all other dog grooming companies. The content within the Ethos Section includes four CSS-styled content cards. Each card represents a specific company etho. 
 
-  Each card consits of background image at the top, and textcontent in the form and paragraph elements and a h2 element at the botton. For design purposes, each card has been styled to display a shadow effect and rounded edges.
+### Pricing Section
+  The pricing section includes a table that is comprised of two columns for services and pricing. Each row below the table headings detail the specific service that is offered by the company, and the corresponding price of that service in Euros. CSS Styling has also been applied to alternating rows to better contrast the data stored by the cells.
+  
+  ![image](https://user-images.githubusercontent.com/76518393/233823518-ad447e66-e952-4912-b55a-1d9263da969d.png)
+
+<br>
+  
+### Contact Form
+  A contact form is available should a user wish to make an enquiry to the company. The contact form includes input fields for a first name, last name, email address, and a phone number. A dropdown menu is also present which a customer may use to select the approxmiate size of their pet. A text area box has also been made for the customer to convey information. 
+  
+  Each input element has been given a required attribute, this means a customer will need to fill out each field before the form can be submitted (telephone input is optional.) Two buttons at the end of the form will allow the customer to either submit their information, or to reset the form entirely.
+  
+   ![image](https://user-images.githubusercontent.com/76518393/233823582-e816c1e7-dbe9-4c63-95ab-586aa08160e8.png)
+
+<br>
+
+ ### Google Map
+  A Google Map has been embedded as an iframe underneath the contact form. This map has been styled to span the entire width of the browser window, and provides a customer with a better understanding as to the precise location of the company building.
+  
+  ![image](https://user-images.githubusercontent.com/76518393/233823639-8570191b-fa7e-46bb-a5b0-5dbce8f04815.png)
+  
+  <br>
+
+  
+ ### Footer 
+  The footer bar resides at the bottom of each html document. The footer includes the company address, opening hours, and social media links. There are four social media links in total (Facebook, Youtube, Twitter, Instagram.) When a user clicks either of the links they will be redirected to the relevant site. These links will also open up in a new tab and allow the customer to continue browser the Happy Paws website.
+  
+  Like the navbar, the footer is completely reponsive and will adjust both its size and item arrangement in relation to the current viewport width.
+  
+  ![image](https://user-images.githubusercontent.com/76518393/233823653-b6401600-b7c3-4a38-aadd-dd4f603fc23e.png)
+
+
+<br>
