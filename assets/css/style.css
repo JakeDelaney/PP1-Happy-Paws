@@ -338,8 +338,8 @@ input{
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: auto 0;
 }
 
 table{
@@ -554,6 +554,10 @@ footer{
 
     .ethos-card{
         width: 35vw;
+    }
+
+    .price-list-outer{
+        margin-top: 6em;
     }
 
 
