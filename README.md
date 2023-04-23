@@ -21,6 +21,8 @@ To scale with organizational growth and business demands, Happy Paws has commiss
   * Deployment
   * Credits
 
+<br>
+
 ## User Experience (UX)
 * **First Time Visitor Goals**
   * As a first time visitor, I want to understand the purpose of the site, its target audience, and some background into the company.
@@ -39,6 +41,8 @@ To scale with organizational growth and business demands, Happy Paws has commiss
 * **Frequent User**
   * As a frequent user I want to check the site for any pricing updates.
   * As a frequent user I want to follow up on enquiries through the provided contact form.
+
+<br>
   
   
 ## Features
@@ -118,5 +122,78 @@ To scale with organizational growth and business demands, Happy Paws has commiss
   
   ![image](https://user-images.githubusercontent.com/76518393/233823653-b6401600-b7c3-4a38-aadd-dd4f603fc23e.png)
 
+<br>
+
+### Future features to implement
+  * A Gallery section of the website to display dogs after they have been groomed
+  * A blog/news section to inform customers of any changes to working hours, operations, policy, etc.
+  * Ethos cards with the added functionality of 'flipping' around to display additional content on the back
+  * A hamburger menu for smaller screen devices to further promote reponsive design
 
 <br>
+
+## Design
+### Color Scheme
+
+![image](https://user-images.githubusercontent.com/76518393/233825126-0a62836b-32e4-49dd-8f2a-acf29c4f9afc.png)
+
+For the color scheme i opted for a warm and earthy tone. I felt these naturals theme were more suited to a company that works exclusively with animals. I also believe the down to earth and inviting theme will elicit a more positive emotional response from customers.
+
+<br>
+
+### Typography
+
+![image](https://user-images.githubusercontent.com/76518393/233825531-c4ea0350-e0f0-4945-9074-36309c9a6d6b.png)
+
+
+The font styles that I chose for the project are Montserrat (headings) and Mukta (paragraphs.) These styles were selected as they are simple, elegant, and compliment each other well. For font weights, a bolder variant of the Monesterrat was imported to bring additional attention to headings.
+
+<br>
+
+### Imagery
+
+All site imagery (including video) were royalty free, and taken from https://www.pexels.com/
+
+<br>
+
+### Wireframes
+
+Below are the wireframes for the index.html file that were drafted prior to beginning the project. The final result is slighly differnet than initially depicted. This is was due to project scope increase.
+
+<p align="center">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/76518393/233826285-429b799f-0d16-4ae8-b965-1ebe3d6b8600.png">
+</p>
+
+<p align="center">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/76518393/233826258-76cee993-05c6-4cba-a17f-aa622006019b.png">
+</p>
+
+<p align="center">
+  <img width="auto" height="auto" src="https://user-images.githubusercontent.com/76518393/233826227-3251b94d-b8b4-4eca-b963-7b1ecb0e649f.png">
+</p>
+
+<br>
+
+## Testing
+### Site functionality
+The below tests were carried out to verify site functionality. All tests were successfully and the site is working as intended.
+
+![image](https://user-images.githubusercontent.com/76518393/233826958-6c814097-2639-4e8f-81fd-ae3a13096940.png)
+
+<br>
+
+
+### W3C HTML Validator testing
+All three site html documents (index, prices, contact) were validated using the W3C HTML Validator. During these tests, no outstanding issues were found.
+![INDEX](https://user-images.githubusercontent.com/76518393/233827051-15e73885-89b1-4433-8497-a317050d4941.PNG)
+![PRICES](https://user-images.githubusercontent.com/76518393/233827056-4313cc44-d4b2-43f7-8efc-723cbedff224.PNG)
+![CONTACT](https://user-images.githubusercontent.com/76518393/233827060-e6372688-d785-4324-b4a5-5d8ebdff0f18.PNG)
+
+<br>
+
+### W3C CSS Validator Testing
+The site CSS was also tested suing the W3C CSS Validator. No issues were found during this test.
+![CSS](https://user-images.githubusercontent.com/76518393/233827244-19d14b3a-b1a6-4cd7-a6b1-8450d7849671.PNG)
+
+
+
