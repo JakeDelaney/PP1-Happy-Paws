@@ -268,7 +268,4 @@ Several bugs were noted during site development. A record of these can be found 
   
 ### Acknowledgements
   * My tutor Derek McCaudley for guidance during the project.
-  
-
-  
- 
+  *  For help with ReadME structure: https://github.com/Zest-studi-o/P01-Allotment-gardens
