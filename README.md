@@ -182,7 +182,6 @@ The below tests were carried out to verify site functionality. All tests were su
 
 <br>
 
-
 ### W3C HTML Validator testing
 All three site html documents (index, prices, contact) were validated using the W3C HTML Validator. During these tests, no outstanding issues were found.
 ![INDEX](https://user-images.githubusercontent.com/76518393/233827051-15e73885-89b1-4433-8497-a317050d4941.PNG)
@@ -196,4 +195,25 @@ The site CSS was also tested suing the W3C CSS Validator. No issues were found d
 ![CSS](https://user-images.githubusercontent.com/76518393/233827244-19d14b3a-b1a6-4cd7-a6b1-8450d7849671.PNG)
 
 
+<br>
 
+
+### Lighthouse report
+To determine if the site was adhering to best practices during its development, lighthouse reports using chrome dev tools were generated. Both the mobile and desktop variants of the site ranked high across all metrics.
+
+
+ ![mobile](https://user-images.githubusercontent.com/76518393/233827481-0e6ea2df-da74-4cbb-9c08-8c6748e4c5ce.PNG)
+
+ ![desktop](https://user-images.githubusercontent.com/76518393/233827488-53df570d-577d-4daa-b740-b3720a5c3253.PNG)
+ 
+ <br>
+
+### Identified bugs
+
+Several bugs were noted during site development. A record of these can be found in the table below
+![image](https://user-images.githubusercontent.com/76518393/233827936-b741c6ed-d980-4e9e-b21f-949ec8ffdc3c.png)
+
+<br>
+
+## Deployment
+### How to deploy this site
