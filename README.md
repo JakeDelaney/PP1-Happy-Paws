@@ -217,3 +217,59 @@ Several bugs were noted during site development. A record of these can be found 
 
 ## Deployment
 ### How to deploy this site
+* Navigate to the Settings menu from within the desired Github repository
+* Select Pages from the 'Code and automation' tab
+* Choose Source > Deploy from a branch
+* Then choose Branch > Main and clickm save
+* Wait a few minutes for the page to build. It can then be accessed from the desired repository under the tab "Environments"
+
+### How to clone this site
+ * Navigate to the main page of the desired repository
+ * Click the "Code" option above the list of files
+ * Copy the repository URL, and then open up Git Bash
+ * Chagne the current working directory to a location for the cloned directory
+ * Enter the command 'git clone' and paste the copied URL
+ * Press enter to create a local clone
+ 
+ <br>
+ 
+ ## Credits
+ 
+ ### Technologies Used
+ * HTML
+ * CSS
+ * JavaScript (Font Icons)
+ 
+ 
+ ### Code
+ Love Running project for initial structure and guidance
+ 
+  * For help with the CSS card element of site:
+  https://www.youtube.com/watch?v=qXRYMdvq_Dc
+  * For help with Navbar: responsiveness
+  https://www.youtube.com/watch?v=nMuwgcG-8xU
+  * For help with CSS Flexbox:
+  https://www.youtube.com/watch?v=phWxA89Dy94
+
+### Applications
+  * Balsamiq Wireframes for help with initial site mockups
+  * Gitpod for the development environment
+  * Git for version control
+  * Github for file and website hosting
+  * FontAwesome for social media and element icons
+  * Adobe Express for resizing videos/images
+  * TinyPNG for image compression
+  * CloudConvert for png/jpeg to WEBP, and MP4 to WEBM conversions
+  * FontJoy for font pairings
+  * Coolors for palette colour generation
+  
+### Media 
+  * Pexels for stock imagery and videos
+  
+  
+### Acknowledgements
+  * My tutor Derek McCaudley for guidance during the project
+  
+
+  
+ 
