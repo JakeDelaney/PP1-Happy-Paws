@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: solid 1px black;
 }
 
 html, body{
@@ -403,7 +402,7 @@ footer{
 }
 
 .footer-content > p{
-    font-size: 125%;
+    font-size: 12it =5%;
 }
 
 .social-media-list{
