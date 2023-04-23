@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: solid 1px black;*/
+    border: solid 1px black;
 }
 
 html, body{
@@ -76,6 +76,7 @@ header{
 .nav-item{
     font-size: 125%;
     font-weight: bold;
+    padding: 0.7em 0;
 }
 
 
@@ -155,6 +156,10 @@ header{
     margin: 2em 0;
     height: auto;
     width: 100%;
+}
+
+.ethos-flexbox-container > h2{
+    padding-bottom: 1em;
 }
 
 .ethos-row-1{
@@ -298,9 +303,6 @@ form{
     margin-top: 40px;
 }
 
-span{
-    font-size: 125%;
-}
 
 textarea{
     height: 200px;
@@ -368,8 +370,8 @@ input{
     font-weight: bold;
 }
 
-.alt-color{
-    background-color: tan;
+.alt-row-color{
+    background-color: #ddbea9;
 }
 
 
@@ -384,7 +386,7 @@ footer{
 .footer-flexbox-container{
     display: flex;
     flex-direction: column;
-    min-height: 150px;
+    height: auto;
     width: 100%;
     font-size: 125%;
     justify-content: space-around;
@@ -395,7 +397,13 @@ footer{
 
 .footer-content{
     color: black;
-    margin: 20px 0;
+    margin: 1em 0;
+    font-size: 100%;
+    height: 7em;
+}
+
+.footer-content > p{
+    font-size: 125%;
 }
 
 .social-media-list{
@@ -408,7 +416,7 @@ footer{
 
 .list-item{
     font-size: 150%;
-    padding: 0 10px;
+    margin: 1em 0.5em;
 }
 
 .company-address{
@@ -447,6 +455,17 @@ footer{
 
     .ethos-card{
         width: 70vw;
+    }
+
+    .price-list th{
+        padding: 1em;
+        font-size: 175%;
+    }
+    
+    .price-list td{
+        padding: 1em 1em;
+        font-size: 150%;
+        font-weight: bold;
     }
 }
 
@@ -490,6 +509,17 @@ footer{
 
     .ethos-card{
         width: 45vw;
+    }
+
+    .price-list th{
+        padding: 1em;
+        font-size: 200%;
+    }
+    
+    .price-list td{
+        padding: 1em 1em;
+        font-size: 200%;
+        font-weight: bold;
     }
 }
 
@@ -639,6 +669,17 @@ footer{
     .ethos-card{
         width: 20vw;
         margin: 20px 0;
+    }
+
+    .price-list th{
+        padding: 1em;
+        font-size: 250%;
+    }
+    
+    .price-list td{
+        padding: 1em 1em;
+        font-size: 200%;
+        font-weight: bold;
     }
 
 }
